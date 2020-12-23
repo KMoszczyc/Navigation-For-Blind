@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+        <ListPreference
+            app:defaultValue="English"
+            app:entries="@array/languages"
+            app:entryValues="@array/languages"
+            app:key="language_settings"
+            app:title="@string/language"
+            app:useSimpleSummaryProvider="true" />
+
+    <PreferenceCategory app:title="@string/obstacle_detection_settings">
+        <SwitchPreferenceCompat
+            app:key="detection_enabled"
+            app:title="@string/detection_enabled"/>
+
+        <ListPreference
+            app:defaultValue="Normal"
+            app:entries="@array/detection_field_height_values"
+            app:entryValues="@array/detection_field_height_values"
+            app:key="detection_field_height"
+            app:title="@string/detection_height"
+            app:useSimpleSummaryProvider="true" />
+
+        <ListPreference
+            app:defaultValue="Normal"
+            app:entries="@array/detection_field_width_values"
+            app:entryValues="@array/detection_field_width_values"
+            app:key="detection_field_width"
+            app:title="@string/detection_width"
+            app:useSimpleSummaryProvider="true" />
+    </PreferenceCategory>
+</PreferenceScreen>

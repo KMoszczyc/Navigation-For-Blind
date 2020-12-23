@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Nawigacja dla niewidomych</string>
+    <string name="voice_commands">komendy głosowe</string>
+    <string name="settings">ustawienia</string>
+    <string name="location">lokacja</string>
+    <string name="compass">kompas</string>
+    <string name="time">czas</string>
+    <string name="date">data</string>
+    <string name="language">Język</string>
+    <string name="obstacle_detection_settings">Detekcja przeszkód</string>
+    <string name="detection_height">Wysokość pola detekcji</string>
+    <string name="detection_width">Szerokość pola detekcji</string>
+    <string name="detection_enabled">Włącz detekcję</string>
+
+    <string-array name="languages">
+        <item>Angielski</item>
+        <item>Polski</item>
+    </string-array>
+
+    <string-array name="obstacleDetectionHeight">
+        <item>Duża</item>
+        <item>Normalna</item>
+        <item>Mała</item>
+    </string-array>
+
+    <string-array name="obstacleDetectionWidth">
+        <item>Duża</item>
+        <item>Normalna</item>
+        <item>Mała</item>
+    </string-array>
+
+
+    <string-array name="detection_field_width_values">
+        <item>Szerokie</item>
+        <item>Normalne</item>
+        <item>Wąskie</item>
+    </string-array>
+
+    <string-array name="detection_field_height_values">
+        <item>Wysokie</item>
+        <item>Normalne</item>
+        <item>Niskie</item>
+    </string-array>
+
+</resources>

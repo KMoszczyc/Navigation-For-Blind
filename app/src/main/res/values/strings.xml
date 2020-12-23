@@ -1,0 +1,43 @@
+<resources>
+    <string name="app_name">Navigation for Blind</string>
+    <string name="voice_commands">Voice commands</string>
+    <string name="settings">Settings</string>
+    <string name="location">Location</string>
+    <string name="compass">compass</string>
+    <string name="time">time</string>
+    <string name="date">date</string>
+    <string name="language">Language</string>
+    <string name="obstacle_detection_settings">Obstacle detection</string>
+    <string name="detection_height">Height of detection field</string>
+    <string name="detection_width">Width of detection field</string>
+    <string name="detection_enabled">Enable detection</string>
+
+    <string-array name="languages">
+        <item>English</item>
+        <item>Polish</item>
+    </string-array>
+
+    <string-array name="obstacleDetectionHeight">
+        <item>Big</item>
+        <item>Normal</item>
+        <item>Small</item>
+    </string-array>
+
+    <string-array name="obstacleDetectionWidth">
+        <item>Big</item>
+        <item>Normal</item>
+        <item>Small</item>
+    </string-array>
+
+    <string-array name="detection_field_width_values">
+        <item>Wide</item>
+        <item>Normal</item>
+        <item>Narrow</item>
+    </string-array>
+
+    <string-array name="detection_field_height_values">
+        <item>High</item>
+        <item>Normal</item>
+        <item>Low</item>
+    </string-array>
+</resources>
