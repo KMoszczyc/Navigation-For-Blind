@@ -33,7 +33,7 @@ Prob Hough lines.
 ![Screenshot](algorithm_imgs/hough.png)
 
 
-##Now some of the results:
+## Now some of the results:
 
 ![Screenshot](results/result1.png)
 ![Screenshot](results/result2.png)
