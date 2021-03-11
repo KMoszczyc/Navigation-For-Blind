@@ -31,3 +31,13 @@ Canny edge detection.
 
 Prob Hough lines.
 ![Screenshot](algorithm_imgs/hough.png)
+
+
+Now some of the results:
+![Screenshot](results/result1.png)
+![Screenshot](results/result2.png)
+![Screenshot](results/result3.png)
+![Screenshot](results/result4.png)
+![Screenshot](results/night1.png)
+![Screenshot](results/night2.png)
+![Screenshot](results/night3.png)
