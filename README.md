@@ -1,3 +1,3 @@
 # NavigationForBlind
  
-[Screenshot](algorithm_imgs/gray.png)
+![Screenshot](algorithm_imgs/gray.png)
