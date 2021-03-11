@@ -23,7 +23,7 @@ Convert to gray image.
 After median and avg blur 5x5.
 ![Screenshot](algorithm_imgs/blurred.png)
 
-Dilation.
+Dilation (you can see the pavement dark edges disappear).
 ![Screenshot](algorithm_imgs/dilation.png)
 
 Canny edge detection.
