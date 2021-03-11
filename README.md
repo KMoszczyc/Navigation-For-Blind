@@ -7,7 +7,7 @@ The obstacle detection algorithm:
  2. Reduce image size to around 500x400. (the bigger the better results but worse performance)
  3. Apply median filter 5x5.
  4. Apply avg blur filter 5x5.
- 5. Dilation - enlargment of brighter pixels and shrinking of darker ones. It serves a role of erasing dark edges occuring on the pavement between paving blocks.
+ 5. Dilation 5x5- enlargment of brighter pixels and shrinking of darker ones. It serves a role of erasing dark edges occuring on the pavement between paving blocks.
  6. Apply median filter 5x5.
  7. Canny edge detection with adaptive min and max thresholds according to average image brightness -> Min=(1-0.33)*avg, Max=(1+0.33)*avg
  8. Probabilistic Hough Lines transform for lines detection. rho: 1.0, theta: Math.PI / 180, threshold: 40, minLineLength: 40.0, maxLineGap: 10.0)
@@ -23,7 +23,7 @@ Convert to gray image.
 After median and avg blur 5x5.
 ![Screenshot](algorithm_imgs/blurred.png)
 
-Dilation (you can see the pavement dark edges disappear).
+Dilation 5x5 (you can see the pavement dark edges disappear).
 ![Screenshot](algorithm_imgs/dilation.png)
 
 Canny edge detection.
