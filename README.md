@@ -1,5 +1,5 @@
 # Navigation For Blind
-This application is part of me engineering thesis "Mobile application for blind people to help them navigate through the city".
+This application is part of my engineering thesis called "Mobile application for blind people to help them navigate through the city".
 
 
 The obstacle detection algorithm:
@@ -17,8 +17,17 @@ The obstacle detection algorithm:
 
 Algorithm visualisation:
 
+Convert to gray image.
 ![Screenshot](algorithm_imgs/gray.png)
+
+After median and avg blur 5x5.
 ![Screenshot](algorithm_imgs/blurred.png)
+
+Dilation.
 ![Screenshot](algorithm_imgs/dilation.png)
+
+Canny edge detection.
 ![Screenshot](algorithm_imgs/canny.png)
+
+Prob Hough lines.
 ![Screenshot](algorithm_imgs/hough.png)
