@@ -2,7 +2,7 @@
 This application is part of my engineering thesis called "Mobile application for blind people to help them navigate through the city".
 
 
-The obstacle detection algorithm:
+## The obstacle detection algorithm:
  1. Transform RGB to Gray image.
  2. Reduce image size to around 500x400. (the bigger the better results but worse performance)
  3. Apply median filter 5x5.
@@ -15,7 +15,7 @@ The obstacle detection algorithm:
  10. Average closest intersection point from last frame and current frame.
  11. Make stereo sound (depending on intersection position left and right headphone volume is adjusted) with loudness according to intersection relative distance (the higher the intersection occurred on the screen the further it should be)
 
-Algorithm visualisation:
+## Algorithm visualisation:
 
 Convert to gray image.
 ![Screenshot](algorithm_imgs/gray.png)
@@ -33,7 +33,8 @@ Prob Hough lines.
 ![Screenshot](algorithm_imgs/hough.png)
 
 
-Now some of the results:
+##Now some of the results:
+
 ![Screenshot](results/result1.png)
 ![Screenshot](results/result2.png)
 ![Screenshot](results/result3.png)
