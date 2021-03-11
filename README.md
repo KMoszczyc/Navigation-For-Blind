@@ -1,5 +1,5 @@
 # Navigation For Blind
-This application is part of my engineering thesis called "Mobile application for blind people to help them navigate through the city".
+This application is part of my engineering thesis called "Mobile application for blind people to help them navigate through the city". It uses OpenCV for obstacle detection (not classification!). This app also provides a compass and current location, date and hour. It's available in 2 language options: Polish and English. As it's for blind people the obstacle detection produce stereo sounds. Info about compass, location and etc. are given via Speech Synthesizer.
 
 
 ## The obstacle detection algorithm:
@@ -42,3 +42,7 @@ Prob Hough lines.
 ![Screenshot](results/night1.png)
 ![Screenshot](results/night2.png)
 ![Screenshot](results/night3.png)
+
+## Conclusion
+
+The algorithm is based on assumption that obstacles have straight lines. If there is a circular obstacle like a ... huge ball (?) it won't be detected by this. Cars with curvy and soap like shapes are also not easy to detect. Hard shadows also can be mistaken for an obstacle. Pavement with colorful pattern also can disrupt the detection algorithm. Other than that the algorthim works quite well for detecting sidewalk posts, people, cars with sharp edges, pavement with well established edges without overgrowing grass, benches etc. 
