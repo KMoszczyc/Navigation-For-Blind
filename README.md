@@ -10,7 +10,7 @@ The obstacle detection algorithm:
  5. Dilation - enlargment of brighter pixels and shrinking of darker ones. It serves a role of erasing dark edges occuring on the pavement between paving blocks.
  6. Apply median filter 5x5.
  7. Canny edge detection with adaptive min and max thresholds according to average image brightness -> Min=(1-0.33)*avg, Max=(1+0.33)*avg
- 8. Probabilistic Hough Lines transform for lines detection.
+ 8. Probabilistic Hough Lines transform for lines detection. rho: 1.0, theta: Math.PI / 180, threshold: 40, minLineLength: 40.0, maxLineGap: 10.0)
  9. Detecting intersections between detected obstacle lines and our field of detection.
  10. Average closest intersection point from last frame and current frame.
  11. Make stereo sound (depending on intersection position left and right headphone volume is adjusted) with loudness according to intersection relative distance (the higher the intersection occurred on the screen the further it should be)
