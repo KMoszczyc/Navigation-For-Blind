@@ -17,19 +17,19 @@ This application is part of my engineering thesis called "Mobile application for
 
 ## Algorithm visualisation:
 
-Convert to gray image.
+###### Convert to gray image.
 ![Screenshot](algorithm_imgs/gray.png)
 
-After median and avg blur 5x5.
+###### After median and avg blur 5x5.
 ![Screenshot](algorithm_imgs/blurred.png)
 
-Dilation 5x5 (you can see the pavement dark edges disappear).
+###### Dilation 5x5 (you can see the pavement dark edges disappear).
 ![Screenshot](algorithm_imgs/dilation.png)
 
-Canny edge detection.
+###### Canny edge detection.
 ![Screenshot](algorithm_imgs/canny.png)
 
-Prob Hough lines.
+###### Prob Hough lines.
 ![Screenshot](algorithm_imgs/hough.png)
 
 
