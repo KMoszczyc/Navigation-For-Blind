@@ -15,6 +15,8 @@ This application is part of my engineering thesis called "Mobile application for
  10. Average closest intersection point from last frame and current frame.
  11. Make stereo sound (depending on intersection position left and right headphone volume is adjusted) with loudness according to intersection relative distance (the higher the intersection occurred on the screen the further it should be)
 
+*(Warning) The algorithm does not include object classification or any other machine learning approach. Just pure openCV*
+
 ## Algorithm visualisation:
 
 ###### Convert to gray image.
