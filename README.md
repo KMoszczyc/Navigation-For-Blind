@@ -24,7 +24,7 @@ This application is part of my engineering thesis called "Mobile application for
  8. Probabilistic Hough Lines transform for lines detection. rho: 1.0, theta: Math.PI / 180, threshold: 40, minLineLength: 40.0, maxLineGap: 10.0)
  9. Detecting intersections between detected obstacle lines and our field of detection.
  10. Average closest intersection point from last frame and current frame.
- 11. Make stereo sound (depending on intersection position left and right headphone volume is adjusted) with loudness according to intersection relative distance (the higher the intersection occurred on the screen the further it should be)
+ 11. Make stereo sound (depending on intersection position left and right headphone volume is adjusted accordingly) with loudness according to relative distance to nearest intersection (the higher the intersection occurred on the screen the further it should be)
 
 *(Warning) The algorithm does not include object classification or any other machine learning approach. Just pure openCV*
 
