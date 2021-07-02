@@ -1,5 +1,16 @@
 # Navigation For Blind
-This application is part of my engineering thesis called "Mobile application for blind people to help them navigate through the city". It uses OpenCV for obstacle detection (not classification!). This app also provides a compass and current location, date and hour. It's available in 2 language options: Polish and English. As it's for blind people the obstacle detection produce stereo sounds. Info about compass, location and etc. are given via Speech Synthesizer.
+This application is part of my engineering thesis called "Mobile application for blind people to help them navigate through the city". 
+
+##Features
+- obstacle detection with OpenCV (stereo 3d sounds with a change in amplitude depending on estimated distance to an object)
+- current location (address)
+- compass
+- date and hour
+- voice commands
+- compatible with Android Screen Reader
+- all features are conveyed verbally with speech synthesizer
+- Polish and English language version
+
 
 
 ## The obstacle detection algorithm:
