@@ -7,7 +7,7 @@ This application is part of my engineering thesis called "Mobile application for
 - compass
 - date and hour
 - voice commands
-- compatible with Android Screen Reader
+- compatible with Android ScreenReader
 - all features are conveyed verbally with speech synthesizer
 - Polish and English language version
 
