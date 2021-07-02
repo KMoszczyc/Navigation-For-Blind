@@ -1,7 +1,7 @@
 # Navigation For Blind
 This application is part of my engineering thesis called "Mobile application for blind people to help them navigate through the city". 
 
-##Features
+## Features
 - obstacle detection with OpenCV (stereo 3d sounds with a change in amplitude depending on estimated distance to an object)
 - current location (address)
 - compass
